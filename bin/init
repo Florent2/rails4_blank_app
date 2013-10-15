@@ -1,0 +1,29 @@
+#!/usr/bin/env ruby
+
+require "fileutils"
+require "pathname"
+
+def replace_in_file file_name, string_or_regexp, new_string
+  file_content     = File.read file_name
+  new_file_content = file_content.gsub string_or_regexp, new_string
+  File.open(file_name, "w") { |file| file.write new_file_content }
+end
+
+def replace_in_all_files old_string, new_string
+  Dir.glob("**/*").each do |file_name|
+    replace_in_file(file_name, old_string, new_string) if File.file? file_name
+  end
+end
+
+app_path = Pathname.new(__FILE__).expand_path.parent.parent
+Dir.chdir app_path
+
+FileUtils.rm_rf ".git"
+
+app_name             = app_path.basename.to_s
+camel_cased_app_name = app_name.split('_').map { |e| e.capitalize }.join
+underscored_app_name = camel_cased_app_name.gsub(/(.)([A-Z])/, '\1_\2').downcase
+
+puts "Renaming the app to '#{camel_cased_app_name}'..."
+replace_in_all_files "Rails4BlankApp",   camel_cased_app_name
+replace_in_all_files "rails4_blank_app", underscored_app_name
