@@ -36,3 +36,6 @@ replace_in_file '.env', 'Run `rake secret` to get a value for this variable', se
 
 puts "Setting the right README.md file..."
 FileUtils.mv "README_APP.md", "README.md"
+
+puts "Creating the config/database.yml file..."
+FileUtils.cp "config/database.yml.example", "config/database.yml"
