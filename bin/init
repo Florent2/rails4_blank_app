@@ -39,3 +39,6 @@ FileUtils.mv "README_APP.md", "README.md"
 
 puts "Creating the config/database.yml file..."
 FileUtils.cp "config/database.yml.example", "config/database.yml"
+
+puts "Removing this init script..."
+FileUtils.rm "bin/init"
