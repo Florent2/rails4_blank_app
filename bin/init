@@ -27,3 +27,12 @@ underscored_app_name = camel_cased_app_name.gsub(/(.)([A-Z])/, '\1_\2').downcase
 puts "Renaming the app to '#{camel_cased_app_name}'..."
 replace_in_all_files "Rails4BlankApp",   camel_cased_app_name
 replace_in_all_files "rails4_blank_app", underscored_app_name
+
+puts "Generating Rails app secret key base..."
+`gem install dotenv-rails`
+`cp .env.example .env`
+secret = `rake secret`.chomp
+replace_in_file '.env', 'Run `rake secret` to get a value for this variable', secret
+
+puts "Setting the right README.md file..."
+FileUtils.mv "README_APP.md", "README.md"

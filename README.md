@@ -16,3 +16,8 @@ for their own application template, I stole good ideas from them. Check
 
     $ git clone https://github.com/Florent2/rails4_blank_app your_app_name
     $ your_app_name/bin/init
+
+## Customizations
+
+* a [README boilerplate](https://github.com/Florent2/rails4_blank_app/blob/master/README_APP.md) with installation, deployment, development and test sections. On installation it replaces the README.md file you are currently reading
+* `secret_key_base` is loaded from the unversioned `.env` file through the dotenv-rails gem ([why it is important](http://robertheaton.com/2013/07/22/how-to-hack-a-rails-app-using-its-secret-token/))

@@ -1,28 +1,18 @@
-== README
+# Rails4BlankApp
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Installation
 
-Things you may want to cover:
+* install the latest version of bundler: `gem update bundler`
+* install the gems: `bundle`
+* copy `.env.example` to `.env` and set variables within
+* create the dev database: `spring rake db:create` (replace `spring` with `bundle exec` if you do not use [spring](https://github.com/jonleighton/spring))
+* load the database schema: `spring rake db:schema:load`
+* seed the database: `spring rake db:seed`
 
-* Ruby version
+## Deployment
 
-* System dependencies
+[TODO]
 
-* Configuration
+## Run tests
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+[TODO]
