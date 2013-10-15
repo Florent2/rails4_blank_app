@@ -23,3 +23,19 @@ for their own application template, I stole good ideas from them. Check
 * `secret_key_base` is loaded from the unversioned `.env` file through the dotenv-rails gem ([why it is important](http://robertheaton.com/2013/07/22/how-to-hack-a-rails-app-using-its-secret-token/))
 * PostgreSQL is the selected database
 * `config/database.yml` is unversioned, this allows different developers to use different credentials locally, and avoid any risk of versioning db production credentials
+
+## For development
+
+* [guard-livereload](https://github.com/guard/guard-livereload) and [rack-livereload](https://github.com/johnbintz/rack-livereload) to have app asset changes apply live in the browser without a browser extension
+* [Overcommit](https://github.com/causes/overcommit) to enforce automated checks before commits
+* [Better Errors](https://github.com/charliesome/better_errors) for more useful error pages
+* [QuickLog](https://github.com/Florent2/quicklog) for nice debugging statements
+* [Quiet Assets](https://github.com/evrone/quiet_assets) to mute assets pipeline log messages
+* [Jazz Hands](https://github.com/nixme/jazz_hands) (with Hirb enabled by defaul) for a better rails console
+* [Guard-CTags-Bundler](https://github.com/guard/guard-ctags-bundler) to automatically update ctags for projet files and gems from project's bundle
+
+## TODOs
+
+* add Rubocop and Rubocop config file
+* document use of Guard in README_APP.md
+* review https://github.com/Florent2/rails_blank_app to add missing things (check commits too)

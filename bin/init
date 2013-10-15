@@ -45,5 +45,8 @@ FileUtils.rm "bin/init"
 
 puts "Initializing the git repository..."
 `git init; git add .; git commit -m "Application creation"`
+`gem install overcommit`
+`overcommit .`
 
 puts "Your application is ready :)"
+puts "You may want to run `bundle outdated` to check if new versions of the bundled gems are available."

@@ -26,4 +26,7 @@ Rails4BlankApp::Application.configure do
   # This option may cause significant delays in view rendering with a large
   # number of complex assets.
   config.assets.debug = true
+
+  # From https://makandracards.com/makandra/17155-live-css-view-reloading
+  config.middleware.insert_after(ActionDispatch::Static, Rack::LiveReload)
 end

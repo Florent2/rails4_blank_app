@@ -16,4 +16,17 @@ gem 'pg'
 
 group :development do
   gem 'dotenv-rails'
+  gem 'quicklog'
+  gem 'quiet_assets'
+  gem 'jazz_hands'
+
+  gem 'better_errors'
+  gem 'binding_of_caller'
+
+  gem 'guard-livereload', require: false
+  gem 'rack-livereload'
+  gem 'guard-ctags-bundler'
+
+  gem 'overcommit', require: false
+  gem 'scss-lint', require: false
 end
