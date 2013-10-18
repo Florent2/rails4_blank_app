@@ -10,6 +10,7 @@ gem 'coffee-rails', '~> 4.0.0'
 # frontend
 gem 'jquery-rails'
 gem 'turbolinks'
+gem 'slim-rails'
 
 # backend
 gem 'pg'

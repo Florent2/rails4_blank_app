@@ -23,6 +23,7 @@ for their own application template, I stole good ideas from them. Check
 * `secret_key_base` is loaded from the unversioned `.env` file through the dotenv-rails gem ([why it is important](http://robertheaton.com/2013/07/22/how-to-hack-a-rails-app-using-its-secret-token/))
 * PostgreSQL is the selected database
 * `config/database.yml` is unversioned, this allows different developers to use different credentials locally, and avoid any risk of versioning db production credentials
+* a `PagesController` with a `home` view to which points the root route
 
 ## For development
 
@@ -36,6 +37,7 @@ for their own application template, I stole good ideas from them. Check
 
 ## TODOs
 
+* no longer generate secret on app creation
+* add initializer to detect missing ENV variables
 * add Rubocop and Rubocop config file
-* document use of Guard in README_APP.md
 * review https://github.com/Florent2/rails_blank_app to add missing things (check commits too)
