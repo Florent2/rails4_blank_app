@@ -11,6 +11,15 @@
 * load the database schema: `spring rake db:schema:load`
 * seed the database: `spring rake db:seed`
 
+## Development
+
+* run `bundle exec guard` in a terminal tab to leverage Guard. In particular
+pages in your browser will reload automatically when an app asset changes
+* use `ql :@user` to have a nice debugging output of `@user`
+* whenever you add a new model (or important attributes) please add in the seed
+file the creation of example instances of this model, it will make life much
+easier for the other developers
+
 ## Deployment
 
 [TODO]
