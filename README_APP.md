@@ -19,6 +19,8 @@ pages in your browser will reload automatically when an app asset changes
 * whenever you add a new model (or important attributes) please add in the seed
 file the creation of example instances of this model, it will make life much
 easier for the other developers
+* when you add a new variable in your `.env` file, make sure to add the var name
+in `env.example` too
 
 ## Deployment
 

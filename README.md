@@ -21,6 +21,7 @@ for their own application template, I stole good ideas from them. Check
 
 * a [README boilerplate](https://github.com/Florent2/rails4_blank_app/blob/master/README_APP.md) with installation, deployment, development and test sections. On installation it replaces the README.md file you are currently reading
 * `secret_key_base` is loaded from the unversioned `.env` file through the dotenv-rails gem ([why it is important](http://robertheaton.com/2013/07/22/how-to-hack-a-rails-app-using-its-secret-token/))
+* an initializer aborts the application initialization if a ENV variable listed in `.env.example` is missing
 * PostgreSQL is the selected database
 * `config/database.yml` is unversioned, this allows different developers to use different credentials locally, and avoid any risk of versioning db production credentials
 * a `PagesController` with a `home` view to which points the root route
@@ -34,10 +35,9 @@ for their own application template, I stole good ideas from them. Check
 * [Quiet Assets](https://github.com/evrone/quiet_assets) to mute assets pipeline log messages
 * [Jazz Hands](https://github.com/nixme/jazz_hands) (with Hirb enabled by defaul) for a better rails console
 * [Guard-CTags-Bundler](https://github.com/guard/guard-ctags-bundler) to automatically update ctags for projet files and gems from project's bundle
+* [dotenv](https://github.com/bkeepers/dotenv) to load env variables from the `.env.` file
 
 ## TODOs
 
-* no longer generate secret on app creation
-* add initializer to detect missing ENV variables
 * add Rubocop and Rubocop config file
 * review https://github.com/Florent2/rails_blank_app to add missing things (check commits too)
