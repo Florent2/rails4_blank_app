@@ -42,7 +42,13 @@ FileUtils.rm "bin/init"
 
 puts "Initializing the git repository..."
 `git init; git add .; git commit -m "Application creation"`
-`gem install overcommit`
+
+puts "Installing pre commit hooks via overcommit..."
+begin
+  gem "overcommit"
+rescue Gem::LoadError
+  `gem install overcommit`
+end
 `overcommit .`
 
 puts "Your application is ready :)"
