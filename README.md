@@ -33,7 +33,7 @@ for their own application template, I stole good ideas from them. Check
 * [Better Errors](https://github.com/charliesome/better_errors) for more useful error pages
 * [QuickLog](https://github.com/Florent2/quicklog) for nice debugging statements
 * [Quiet Assets](https://github.com/evrone/quiet_assets) to mute assets pipeline log messages
-* [Jazz Hands](https://github.com/nixme/jazz_hands) (with Hirb enabled by defaul) for a better rails console
+* [Jazz Hands](https://github.com/nixme/jazz_hands) (with Hirb enabled by default) for a better rails console
 * [Guard-CTags-Bundler](https://github.com/guard/guard-ctags-bundler) to automatically update ctags for projet files and gems from project's bundle
 * [dotenv](https://github.com/bkeepers/dotenv) to load env variables from the `.env.` file
 
