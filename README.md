@@ -41,3 +41,4 @@ for their own application template, I stole good ideas from them. Check
 
 * add Rubocop and Rubocop config file
 * review https://github.com/Florent2/rails_blank_app to add missing things (check commits too)
+* add a `page_title` helper ([flutie](https://github.com/thoughtbot/flutie/blob/master/lib/flutie/page_title_helper.rb))
