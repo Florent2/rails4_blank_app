@@ -9,8 +9,7 @@ template.
 * to [foca](https://github.com/foca) for this great idea! This app is an adapted
 version of the [Blank Slate app](https://github.com/foca/blank_slate_rails_app).
 * to [Xenda](https://github.com/xenda) and [frodsan](https://github.com/frodsan)
-for their own application template, I stole good ideas from them. Check
-[barney](https://github.com/frodsan/barney), frodsan's application template.
+for their own application template, I stole good ideas from them.
 
 ## How to use
 
@@ -42,5 +41,6 @@ for their own application template, I stole good ideas from them. Check
 
 * user http://www.youtube.com/watch?v=UYOX6OIp_FE instead of dotenv-rails
 * add Rubocop and Rubocop config file
-* review https://github.com/Florent2/rails_blank_app to add missing things (check commits too)
 * add a `page_title` helper ([flutie](https://github.com/thoughtbot/flutie/blob/master/lib/flutie/page_title_helper.rb))
+* add a basic default integration test on Pages#home, add gems for testing
+* use Bootstrap
