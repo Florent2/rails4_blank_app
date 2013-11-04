@@ -39,6 +39,7 @@ for their own application template, I stole good ideas from them. Check
 
 ## TODOs
 
+* user http://www.youtube.com/watch?v=UYOX6OIp_FE instead of dotenv-rails
 * add Rubocop and Rubocop config file
 * review https://github.com/Florent2/rails_blank_app to add missing things (check commits too)
 * add a `page_title` helper ([flutie](https://github.com/thoughtbot/flutie/blob/master/lib/flutie/page_title_helper.rb))
