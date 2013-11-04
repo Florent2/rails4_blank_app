@@ -29,4 +29,7 @@ Rails4BlankApp::Application.configure do
 
   # From https://makandracards.com/makandra/17155-live-css-view-reloading
   config.middleware.insert_after(ActionDispatch::Static, Rack::LiveReload)
+
+  # from http://railsillustrated.com/logger-tricks.html
+  config.logger = Logger.new Rails.root.join("log", Rails.env + ".log"), 3, 5 * 1024 * 1024
 end

@@ -25,6 +25,7 @@ for their own application template, I stole good ideas from them. Check
 * PostgreSQL is the selected database
 * `config/database.yml` is unversioned, this allows different developers to use different credentials locally, and avoid any risk of versioning db production credentials
 * a `PagesController` with a `home` view to which points the root route
+* test and development logs are automatically rotated to save disk space
 
 ## For development
 
