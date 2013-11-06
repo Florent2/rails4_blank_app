@@ -25,6 +25,7 @@ for their own application template, I stole good ideas from them.
 * `config/database.yml` is unversioned, this allows different developers to use different credentials locally, and avoid any risk of versioning db production credentials
 * a `PagesController` with a `home` view to which points the root route
 * test and development logs are automatically rotated to save disk space
+* use Bootstrap 3 (without gem)
 
 ## For development
 
@@ -43,4 +44,3 @@ for their own application template, I stole good ideas from them.
 * add Rubocop and Rubocop config file
 * add a `page_title` helper ([flutie](https://github.com/thoughtbot/flutie/blob/master/lib/flutie/page_title_helper.rb))
 * add a basic default integration test on Pages#home, add gems for testing
-* use Bootstrap
