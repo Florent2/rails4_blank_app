@@ -17,8 +17,11 @@ gem 'slim-rails'
 # backend
 gem 'pg'
 
-group :development do
+group :development, :test do
   gem 'dotenv-rails'
+end
+
+group :development do
   gem 'quicklog'
   gem 'quiet_assets'
   gem 'jazz_hands'
@@ -32,4 +35,8 @@ group :development do
 
   gem 'overcommit', require: false
   gem 'scss-lint', require: false
+end
+
+group :test do
+  gem 'capybara'
 end
