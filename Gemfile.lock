@@ -180,9 +180,9 @@ GEM
       railties (>= 4.0.0.beta, < 5.0)
       sass (>= 3.1.10)
       sprockets-rails (~> 2.0.0)
-    scss-lint (0.10.1)
+    scss-lint (0.7.0)
       colorize
-      sass (= 3.2.10)
+      sass
     slim (2.0.2)
       temple (~> 0.6.6)
       tilt (>= 1.3.3, < 2.1)
@@ -240,7 +240,7 @@ DEPENDENCIES
   rack-livereload
   rails (= 4.0.1)
   sass-rails (~> 4.0.0)
-  scss-lint
+  scss-lint (= 0.7.0)
   slim-rails
   turbolinks
   uglifier (>= 1.3.0)
