@@ -19,7 +19,7 @@ html
     = render "layouts/topbar"
 
     .container
-      = render partial: "layouts/flash_messages", flash: flash
+      = render "layouts/flash_messages", flash: flash
       = yield
 
 
