@@ -27,5 +27,6 @@ module Rails4BlankApp
       g.javascripts false
     end
 
+    config.action_controller.action_on_unpermitted_parameters = :raise
   end
 end

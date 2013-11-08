@@ -27,6 +27,7 @@ for their own application template, I stole good ideas from them.
 * test and development logs are automatically rotated to save disk space
 * use Bootstrap 3 (without gem)
 * layout includes flash messages display
+* always raise an exception when an unpermitted attribute is trying to be set
 
 ## For development
 
