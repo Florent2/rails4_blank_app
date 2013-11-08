@@ -28,4 +28,5 @@ in `env.example` too
 
 ## Run tests
 
-[TODO]
+* with `spring rake test`
+* to see current page content in an integration test, add a line with `save_and_open_page`
