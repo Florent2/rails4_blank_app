@@ -26,6 +26,7 @@ for their own application template, I stole good ideas from them.
 * a `PagesController` with a `home` view to which points the root route
 * test and development logs are automatically rotated to save disk space
 * use Bootstrap 3 (without gem)
+* layout includes flash messages display
 
 ## For development
 
