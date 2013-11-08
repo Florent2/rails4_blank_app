@@ -16,13 +16,13 @@ gem 'slim-rails'
 
 # backend
 gem 'pg'
+gem 'quicklog'
 
 group :development, :test do
   gem 'dotenv-rails'
 end
 
 group :development do
-  gem 'quicklog'
   gem 'quiet_assets'
   gem 'jazz_hands'
 
