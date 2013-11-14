@@ -29,7 +29,7 @@ for their own application template, I stole good ideas from them.
 * layout includes flash messages display
 * always raise an exception when an unpermitted attribute is trying to be set
 
-## For development
+### For development
 
 * [guard-livereload](https://github.com/guard/guard-livereload) and [rack-livereload](https://github.com/johnbintz/rack-livereload) to have app asset changes apply live in the browser without a browser extension
 * [Overcommit](https://github.com/causes/overcommit) to enforce automated checks before commits
@@ -39,6 +39,10 @@ for their own application template, I stole good ideas from them.
 * [Jazz Hands](https://github.com/nixme/jazz_hands) (with Hirb enabled by default) for a better rails console
 * [Guard-CTags-Bundler](https://github.com/guard/guard-ctags-bundler) to automatically update ctags for projet files and gems from project's bundle
 * [dotenv](https://github.com/bkeepers/dotenv) to load env variables from the `.env.` file
+
+### For tests
+
+* [single_test](https://github.com/grosser/single_test) to invoke single tests with rakish syntax
 
 ## TODOs
 

@@ -29,4 +29,5 @@ in `env.example` too
 ## Run tests
 
 * with `spring rake test`
+* to run only a single test or tests of a single file, see the new rake tasks given by [single_test](https://github.com/grosser/single_test)
 * to see current page content in an integration test, add a line with `save_and_open_page`
