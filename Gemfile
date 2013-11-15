@@ -20,6 +20,7 @@ gem 'quicklog'
 
 group :development, :test do
   gem 'dotenv-rails'
+  gem 'byebug'
 end
 
 group :development do

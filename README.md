@@ -39,6 +39,7 @@ for their own application template, I stole good ideas from them.
 * [Jazz Hands](https://github.com/nixme/jazz_hands) (with Hirb enabled by default) for a better rails console
 * [Guard-CTags-Bundler](https://github.com/guard/guard-ctags-bundler) to automatically update ctags for projet files and gems from project's bundle
 * [dotenv](https://github.com/bkeepers/dotenv) to load env variables from the `.env.` file
+* [byebug](https://github.com/deivid-rodriguez/byebug) for the debugger (available in the test environment too)
 
 ### For tests
 
@@ -49,3 +50,4 @@ for their own application template, I stole good ideas from them.
 * user http://www.youtube.com/watch?v=UYOX6OIp_FE instead of dotenv-rails
 * add Rubocop and Rubocop config file
 * add a `page_title` helper ([flutie](https://github.com/thoughtbot/flutie/blob/master/lib/flutie/page_title_helper.rb))
+* add a pre commit hook that aborts commit if `byebug` is left in a file
