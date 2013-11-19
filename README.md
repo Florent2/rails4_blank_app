@@ -28,6 +28,7 @@ for their own application template, I stole good ideas from them.
 * use Bootstrap 3 (without gem)
 * layout includes flash messages display
 * always raise an exception when an unpermitted attribute is trying to be set
+* use [marco-polo](https://github.com/arches/marco-polo) to display current Rails env && application name in console prompt
 
 ### For development
 

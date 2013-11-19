@@ -17,6 +17,7 @@ gem 'slim-rails'
 # backend
 gem 'pg'
 gem 'quicklog'
+gem 'marco-polo'
 
 group :development, :test do
   gem 'dotenv-rails'
