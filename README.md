@@ -1,4 +1,5 @@
 # Rails4 Blank App
+[![Dependency Status](https://gemnasium.com/Florent2/rails4_blank_app.png)](https://gemnasium.com/Florent2/rails4_blank_app)
 
 This app contains just the minimum configuration needed to start coding right
 away on the things that matter. It's easier for me to maintain than a rails
