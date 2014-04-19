@@ -38,6 +38,7 @@ group :development do
   gem 'guard-ctags-bundler'
 
   gem 'overcommit', require: false
+  gem 'rubocop', require: false
   gem 'scss-lint', '0.7.0', require: false
 end
 
