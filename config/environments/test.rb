@@ -1,4 +1,4 @@
-Rails4BlankApp::Application.configure do
+Rails.application.configure do
   # Settings specified here will take precedence over those in config/application.rb.
 
   # The test environment is used exclusively to run your application's
@@ -33,6 +33,9 @@ Rails4BlankApp::Application.configure do
 
   # Print deprecation notices to the stderr.
   config.active_support.deprecation = :stderr
+
+  # Raises error for missing translations
+  # config.action_view.raise_on_missing_translations = true
 
   # from http://railsillustrated.com/logger-tricks.html
   config.logger = Logger.new Rails.root.join("log", Rails.env + ".log"), 3, 5 * 1024 * 1024

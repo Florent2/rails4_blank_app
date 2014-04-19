@@ -5,4 +5,4 @@ require File.expand_path("../config/application", __FILE__)
 
 require 'single_test/tasks' if Rails.env.test?
 
-Rails4BlankApp::Application.load_tasks
+Rails.application.load_tasks
