@@ -53,3 +53,4 @@ for their own application template, I stole good ideas from them.
 * add Rubocop and Rubocop config file
 * add a `page_title` helper ([flutie](https://github.com/thoughtbot/flutie/blob/master/lib/flutie/page_title_helper.rb))
 * add a pre commit hook that aborts commit if `byebug` is left in a file
+* use https://github.com/schneems/sprockets_better_errors ?
