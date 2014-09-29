@@ -25,6 +25,7 @@ camel_cased_app_name = app_name.split("_").map { |e| e.capitalize }.join
 
 puts "Renaming the app to \"#{camel_cased_app_name}\"..."
 replace_in_all_files "Rails4BlankApp", camel_cased_app_name
+replace_in_all_files "rails4_blank_app", app_name
 
 puts "Copying .env.example to .env..."
 `cp .env.example .env`
