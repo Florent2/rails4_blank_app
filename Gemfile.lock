@@ -278,7 +278,7 @@ DEPENDENCIES
   rails-html-sanitizer (~> 1.0)
   rubocop
   sass-rails (~> 5.0.0.beta1)
-  scss-lint (= 0.7.0)
+  scss-lint
   single_test
   slim-rails
   spring

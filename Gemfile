@@ -44,7 +44,7 @@ group :development do
 
   gem 'overcommit', require: false
   gem 'rubocop', require: false
-  gem 'scss-lint', '0.7.0', require: false
+  gem 'scss-lint', require: false
 end
 
 group :test do
