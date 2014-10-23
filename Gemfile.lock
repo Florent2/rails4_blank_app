@@ -69,6 +69,8 @@ GEM
     columnize (0.8.9)
     debug_inspector (0.0.2)
     debugger-linecache (1.2.0)
+    did_you_mean (0.7.0)
+      binding_of_caller
     diff-lcs (1.2.5)
     diffy (3.0.6)
     dotenv (0.11.1)
@@ -257,6 +259,7 @@ DEPENDENCIES
   byebug
   capybara
   coffee-rails (~> 4.0.0)
+  did_you_mean
   dotenv-rails
   guard-ctags-bundler
   guard-livereload

@@ -42,6 +42,7 @@ for their own application template, I stole good ideas from them.
 * [Guard-CTags-Bundler](https://github.com/guard/guard-ctags-bundler) to automatically update ctags for projet files and gems from project's bundle
 * [dotenv](https://github.com/bkeepers/dotenv) to load env variables from the `.env.` file
 * [byebug](https://github.com/deivid-rodriguez/byebug) for the debugger (available in the test environment too)
+* [did_you_mean](https://github.com/yuki24/did_you_mean) to get clues about correct method name when method name errors
 
 ### For tests
 
