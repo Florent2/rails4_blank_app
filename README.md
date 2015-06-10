@@ -47,6 +47,7 @@ for their own application template, I stole good ideas from them.
 ### For tests
 
 * [single_test](https://github.com/grosser/single_test) to invoke single tests with rakish syntax
+* [guard-test](https://github.com/guard/guard-test) to continuously run tests
 
 ## TODOs
 

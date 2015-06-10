@@ -25,6 +25,7 @@ group :development, :test do
   gem 'web-console', '~> 2.0.0'
   gem 'spring'
   gem 'did_you_mean'
+  gem 'guard-test'
 end
 
 group :development do
