@@ -22,15 +22,15 @@ module Rails4BlankApp
     config.i18n.enforce_available_locales = true
 
     config.generators do |g|
-      g.assets false
+      g.assets      false
       g.stylesheets false
-      g.helper false
+      g.helper      false
       g.javascripts false
     end
 
+    # to not swallow errors in after_commit/after_rollback callbacks.
+    config.active_record.raise_in_transactional_callbacks     = true
+    config.active_record.schema_format                        = :sql
     config.action_controller.action_on_unpermitted_parameters = :raise
-
-    # For not swallow errors in after_commit/after_rollback callbacks.
-    config.active_record.raise_in_transactional_callbacks = true
   end
 end
