@@ -39,8 +39,6 @@ group :development do
   gem 'pry-git'
   gem 'pry-remote'
 
-  gem 'guard-livereload', require: false
-  gem 'rack-livereload'
   gem 'guard-ctags-bundler'
 
   gem 'overcommit', require: false

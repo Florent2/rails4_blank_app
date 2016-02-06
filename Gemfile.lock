@@ -70,11 +70,7 @@ GEM
     dotenv-rails (2.1.0)
       dotenv (= 2.1.0)
       railties (>= 4.0, < 5.1)
-    em-websocket (0.5.1)
-      eventmachine (>= 0.12.9)
-      http_parser.rb (~> 0.6.0)
     erubis (2.7.0)
-    eventmachine (1.0.9.1)
     execjs (2.6.0)
     ffi (1.9.10)
     formatador (0.2.5)
@@ -97,16 +93,10 @@ GEM
     guard-ctags-bundler (1.4.0)
       guard (>= 2.0)
       guard-compat (>= 0.1.0)
-    guard-livereload (2.5.2)
-      em-websocket (~> 0.5)
-      guard (~> 2.8)
-      guard-compat (~> 1.0)
-      multi_json (~> 1.8)
     guard-test (2.0.6)
       guard-compat (~> 1.2)
       test-unit (~> 3.0)
     hirb (0.7.3)
-    http_parser.rb (0.6.0)
     i18n (0.7.0)
     iniparse (1.4.2)
     jquery-rails (4.1.0)
@@ -129,7 +119,6 @@ GEM
     mime-types (1.25.1)
     mini_portile2 (2.0.0)
     minitest (5.8.4)
-    multi_json (1.11.2)
     nenv (0.2.0)
     nokogiri (1.6.7.2)
       mini_portile2 (~> 2.0.0.rc2)
@@ -166,8 +155,6 @@ GEM
     quiet_assets (1.1.0)
       railties (>= 3.1, < 5.0)
     rack (1.6.4)
-    rack-livereload (0.3.16)
-      rack
     rack-test (0.6.3)
       rack (>= 1.0)
     rails (4.2.5.1)
@@ -271,7 +258,6 @@ DEPENDENCIES
   did_you_mean
   dotenv-rails
   guard-ctags-bundler
-  guard-livereload
   guard-test
   hirb
   jquery-rails
@@ -286,7 +272,6 @@ DEPENDENCIES
   pry-remote
   quicklog
   quiet_assets
-  rack-livereload
   rails (= 4.2.5.1)
   rubocop
   sass-rails (~> 5.0.0)

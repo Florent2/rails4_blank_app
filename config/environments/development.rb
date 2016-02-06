@@ -39,9 +39,6 @@ Rails.application.configure do
   # Raises error for missing translations
   # config.action_view.raise_on_missing_translations = true
 
-  # From https://makandracards.com/makandra/17155-live-css-view-reloading
-  config.middleware.insert_after(ActionDispatch::Static, Rack::LiveReload)
-
   # from http://railsillustrated.com/logger-tricks.html
   config.logger = Logger.new Rails.root.join("log", Rails.env + ".log"), 3, 5 * 1024 * 1024
 end

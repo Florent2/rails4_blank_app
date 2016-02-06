@@ -22,6 +22,11 @@ easier for the other developers
 * when you add a new variable in your `.env` file, make sure to add the var name
 in `env.example` too
 * the debugger [byebug](https://github.com/deivid-rodriguez/byebug) is available
+* to live reload webpage when assets or views change:
+  * install [BrowserSync](https://www.browsersync.io/): npm install browser-sync --save-dev -g
+  * run `browser-sync start --proxy http://localhost:3000 --files "app/assets/stylesheets/**/*.scss, app/assets/javascripts/**/*.js, app/views/**/*.html.*, app/helpers/**/*.rb'"
+  * this opens in your browser a new page on http://localhost:3001/
+  * anytime you change a view template or an asset file the current page in http://localhost:3001/ will be automatically reloaded
 
 ## Deployment
 
