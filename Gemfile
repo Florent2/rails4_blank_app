@@ -1,8 +1,8 @@
 source 'https://rubygems.org'
 
-ruby '2.2.2'
+ruby '2.3.0'
 
-gem 'rails', '4.2.2'
+gem 'rails', '4.2.5.1'
 
 # assets
 gem 'sass-rails', '~> 5.0.0'
